@@ -1,0 +1,71 @@
+/*Overriding defaults of browser*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+/*Custom styles*/
+
+header{
+    background-color: #E8861E;
+    height: 100px;
+}
+
+h1{
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px; 
+    color: #fff;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav li a{
+    color: black;
+    font-size: 20px;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+
+main{
+    width: 960px;
+    min-height: 700px;
+    margin: 30px auto;
+}
+
+#hero{
+    width: 100;
+}
+
+main li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+main li:last-child{
+    margin-right: 0;
+}
+
+footer{
+    height: 100px;
+    background-color: #888;
+}
