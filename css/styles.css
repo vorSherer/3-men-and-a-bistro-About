@@ -2,7 +2,7 @@
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 10;
     font-family: helvetica;
 }
 
@@ -47,7 +47,6 @@ nav li a:hover{
 
 nav p{
     float: right;
-    font-size: 75%;
 }
 
 main{
