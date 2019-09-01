@@ -33,10 +33,16 @@ h1{
     color: #fff;
 }
 
-article{
+article.owners{
     float: left;
     padding: 30px;
 }
+
+article.intro{
+    float: right;
+    padding: 30px;
+}
+
 nav li{
     display: inline-block;
     margin-right: 50px;
