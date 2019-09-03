@@ -77,6 +77,14 @@ nav p{
     margin-right: 15px;
 }
 
+.imageA{
+    float: left;
+}
+
+.imageB{
+    float: right;
+}
+
 main{
     width: 960px;
     min-height: 700px;
@@ -104,5 +112,5 @@ main li:last-child{
 
 footer{
     height: 100px;
-    background-color: #E8861E8;
+    background-color: #E8861E;
 }
