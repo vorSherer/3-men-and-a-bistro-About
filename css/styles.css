@@ -110,6 +110,10 @@ main li:last-child{
     margin-right: 0;
 }
 
+p{
+    float: right;
+}
+
 footer{
     height: 100px;
     background-color: #E8861E;
