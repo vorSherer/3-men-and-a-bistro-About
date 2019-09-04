@@ -14,6 +14,7 @@ var invalidDay = false;
 // Declare functions
 
 function validateDay() {
+  console.log("Got this far");
   var userDay = prompt("Using 'S M T W T F S' which day is today?", "Bistro day!");
   if (userDay == null || userDay == "") {
   greeting = "User cancelled the prompt.";
