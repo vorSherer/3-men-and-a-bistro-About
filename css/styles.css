@@ -36,13 +36,13 @@ h1{
 article{
     float: left;
     padding: 30px;
-    width: 440px;
+    width: 600px;
 }
 
 aside{
     float: left;
     padding: 30px;
-    width: 520px;
+    width: 300px;
 }
 
 nav li{
@@ -83,8 +83,16 @@ nav p{
     float: left;
 }
 
+.captionA{
+    float: left;
+}
+
 .imageB{
-    float: right;
+    float: left;
+}
+
+.captionB{
+    float: left;
 }
 
 main{
