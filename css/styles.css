@@ -2,7 +2,6 @@
 
 body{
     background-color: #FFBE7A;
-    margin: 0;
     padding: 0;
     font-family: helvetica;
     font-size: 16px;
@@ -33,16 +32,6 @@ h1{
     color: #fff;
 }
 
-article{
-    float: left;
-    width: 460px;
-}
-
-aside{
-    float: left;
-    padding: 30px;
-    width: 460px;
-}
 
 nav li{
     display: inline-block;
@@ -78,36 +67,38 @@ nav p{
     margin-right: 15px;
 }
 
-.imageA{
-    float: left;
-}
-
-.captionA{
-    float: left;
-}
-
-.imageB{
-    float: left;
-}
-
-.captionB{
-    float: left;
-}
-
 main{
-    width: 960px;
     min-height: 700px;
-    margin: 30px auto;
+    width: 960px;
+    margin: 0px auto;
 }
 
 #hero{
     width: 100;
 }
 
+#upper-content {
+    width: 960px;
+    margin-top: 20px;
+}
+
+article{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 48%;
+}
+
+aside{
+    display: inline-block;
+    margin-left: 10px;
+    width: 48%;
+}
+
 main.section{
-    float: left;
     margin-right: 30 px;
     margin-top: 30 px;
+    width: 960px;
 }
 main li{
     float: left;
@@ -119,8 +110,24 @@ main li:last-child{
     margin-right: 0;
 }
 
-p{
-    float: right;
+#trough {
+    width: 960px;
+}
+
+.imageA{
+    display: block;
+}
+
+.captionA{
+    display: block;
+}
+
+.imageB{
+    display: block;
+}
+
+.captionB{
+    display: block;
 }
 
 footer{
